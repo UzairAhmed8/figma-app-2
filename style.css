@@ -9,6 +9,7 @@
 }
 
 body{
+    background-color: #f8f8f8;
     overflow-x: hidden;
     font-family: Inter-tighter;
 }
@@ -296,19 +297,122 @@ body{
   }
 
   .section-6{
-    padding: 0px 80px ;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
   }
 
-  .cards-sec-6 img{
-    height: 380px;
-    width: 530px;
+  .sec-6-cards{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .upper-content-sec-6 img{
+    height: 390px;
+    width: 600px;
     border-radius: 15px;
-    border: 1px solid black; 
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+    filter: grayscale(1);
+  }
+
+  .upper-content-sec-6 img:hover{
+    transform: scale(1.05);
+    filter: grayscale(0);
+  }
+
+  .bottome-content-sec-6{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
     cursor: pointer;
   }
 
-  .cards-sec-6 img:hover{
-    transform: scale(1.05, 1.05);
-
+  .bottome-content-sec-6 h4{
+    font-weight: bolder;
   }
+
+  .bottome-content-sec-6 p{
+    font-size: 13px;
+    padding-top: 5px;
+  }
+
+  .bottome-content-sec-6 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    filter: grayscale(1);
+  }
+
+  .breaker{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 100px;
+    padding-bottom: 250px;
+  }
+
+  .breaker-con{
+    display: flex;
+    gap: 5px;
+  }
+
+  .breaker-con h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .after-breaker-txt{
+    padding-bottom: 80px;
+  }
+  .after-breaker-txt p{
+    font-size: 14px;
+  }
+  .after-breaker-txt h1{
+    font-size: 65px;
+  }
+
+  .section-7{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .cards-sec-7{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .cards-sec-7:hover{
+    transform: scale(1.01);
+  }
+
+  .img-div img{
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .upper-inner-con-7{
+    display: flex;
+    align-items: first baseline;
+    gap: 100px;
+  }
+
+  .bottom-inner-con-7{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .span-1{
+    display: flex;
+    gap: 10px;
+    align-items: first baseline;
+    border-bottom: 5px solid rgb(255, 183, 0);
+  }
+
