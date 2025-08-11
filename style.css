@@ -416,3 +416,30 @@ body{
     border-bottom: 5px solid rgb(255, 183, 0);
   }
 
+  .section-8{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sec-8-left-con{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .upper-con img{
+    height: 632px;
+    border-radius: 15px;
+  }
+
+  .bottom-con{
+    padding-top: 30px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .bottom-con p{
+    padding-top: 10px; 
+  }
